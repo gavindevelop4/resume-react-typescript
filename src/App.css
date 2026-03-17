@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+/* ===== Global / Page ===== */
+
+html {
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+  print-color-adjust: exact;
+}
+
+@media screen {
+  html, body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1a3a6b;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 0;
+  }
+
+  .page {
+    background: white;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+    width: 210mm;
+  }
+
+  .print-btn {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #00238e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s, transform 0.15s;
+  }
+
+  .print-btn:hover {
+    background-color: #1e4d8c;
+    transform: scale(1.08);
+  }
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  html, body {
+    width: 210mm;
+    height: 297mm;
+    background: none;
+    padding: 0;
+  }
+  .page {
+    margin: 0;
+    border: initial;
+    border-radius: initial;
+    width: initial;
+    min-height: initial;
+    box-shadow: initial;
+    background: initial;
+    page-break-after: always;
+  }
+
+  .print-btn {
+    display: none;
+  }
+}
+
+.subpage {
+  padding: 1.2cm 1.5cm;
+  height: 297mm;
+}
+
+/* ===== Header ===== */
+
+.top-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-bottom: 8px;
+  gap: 12px;
+}
+
+.top-container .left {
+  border-bottom: 1px solid #717171;
+}
+
+.name {
+  font-size: 50.5px;
+  font-weight: 700;
+  margin-bottom: 0px;
+  color: #00238e;
+  line-height: 1.2;
+}
+
+.summary {
+  font-size: 12px;
+  color: #717171;
+}
+
+.education {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 10.5px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.education .icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  color: #00238e;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.contact .item:last-child {
+  margin-bottom: 0;
+}
+
+.contact .item .icon {
+  margin-right: 8px;
+  width: 20px;
+  height: 20px;
+}
+
+.contact .item .description {
+  color: #007BFF;
+}
+
+.contact .item .description a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+/* ===== Main ===== */
+
+.employmentHistory {
+  margin-bottom: 5px;
+}
+
+/* ===== Role Item ===== */
+
+.role-item {
+  margin-top: 4px;
+}
+
+/* ===== Role Title ===== */
+
+.jobTitle {
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.jobTitle span {
+  margin-bottom: 0;
+}
+
+.jobTitle .title {
+  color: black;
+}
+
+.jobTitle .company {
+  color: #007BFF;
+}
+
+.jobTitle .company a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.jobTitle .date {
+  color: #a8aabc;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+/* ===== Skills ===== */
+
+.skills {
+  font-size: 12px;
+  font-family: "Source Code Pro", monospace;
+  color: #717171;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-top: 2px;
+}
+
+/* ===== OneLineBlock ===== */
+
+.oneLineBlock {
+  font-size: 16px;
+  color: #00238e;
+  font-weight: 700;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+/* ===== Responsibilities List ===== */
+
+.responsibilitesList {
+  color: #717171;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.responsibilitesList ul {
+  margin-block-start: 2px;
+  margin-block-end: 2px;
+  padding-inline-start: 20px;
+}
+
+/* ===== Project Highlights ===== */
+
+.projectHighlights {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.projectHighlights .projectName {
+  color: #717171;
+}
+
+.projectHighlights .projectLink {
+  color: #007BFF;
+  text-decoration: none;
+}
