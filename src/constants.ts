@@ -1,5 +1,5 @@
 export const summary = `
-  Senior Mobile Application Developer and payment systems specialist with 5+ years of experience
+  Senior Mobile Application Developer and Payment Systems Specialist with 5+ years of experience
   building Android applications for unattended payment infrastructure, specializing in Kotlin (Jetpack Compose),
   cross-platform mobile development, and cloud-connected IoT systems. Proven track record delivering
   large-scale solutions across 10,000+ terminals in self-service payment environments.
