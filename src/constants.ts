@@ -34,10 +34,10 @@ export interface Role {
 
 const roleList: Role[] = [
   {
-    title: "Mobile Application Developer",
+    title: "Team Lead - Mobile Application Development",
     company: "WeVend",
     website: "https://www.wevend.com/",
-    startDate: "Sep 2024",
+    startDate: "Feb 2026",
     endDate: "Current",
     skills: "Kotlin(Jetpack Compose), SQLite(Room Database), Java, JavaScript(React Native, Electron, React), TypeScript(React Native, Electron, React)",
     description: [
@@ -47,7 +47,17 @@ const roleList: Role[] = [
       "Created a Windows desktop application (.exe using Electron) to interface with Android devices over USB Serial, reducing manual setup time for field technicians by over 50%",
       "Implemented native TCP server on Android terminals for real-time communication with kiosks—an industry-first in the unattended sector that improved integration and reduced diagnostic time by 25%",
       "Architected a scalable infrastructure for remote device control and real-time telemetry, powered by cloud-based IoT services, enhancing visibility and reliability across all terminals",
-      "Automated CI/CD pipelines using GitHub Actions to handle APK builds, code quality checks, and deployments, reducing release turnaround time by 30%"
+      "Automated CI/CD pipelines using GitHub Actions to handle APK builds, code quality checks, and deployments, reducing release turnaround time by 30%",
+      "Led product roadmap planning and infrastructure design decisions, aligning technical architecture with business goals across the unattended payment ecosystem",
+      "Implemented AI-assisted development workflows using Claude Code, accelerating feature delivery and code quality across the team"
+    ],
+    previousRole: [
+      {
+        title: "Mobile Application Developer",
+        company: "WeVend",
+        startDate: "Sep 2024",
+        endDate: "Feb 2026",
+      }
     ]
   },
   {
@@ -58,8 +68,8 @@ const roleList: Role[] = [
     endDate: "Sep 2024",
     skills: "TypeScript(React, Redux), JavaScript(React, Redux), Java(Spring Boot), Python, MSSQL",
     description: [
-      "Created an internal portal and digital workflow to enhance operational flexibility and improve turnaround rates for executing promotion campaigns",
-      "Developed a RESTful API for the portal, reducing maintenance time by 20%",
+      // "Created an internal portal and digital workflow to enhance operational flexibility and improve turnaround rates for executing promotion campaigns",
+      // "Developed a RESTful API for the portal, reducing maintenance time by 20%",
     ]
   },
   {
