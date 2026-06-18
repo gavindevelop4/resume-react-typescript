@@ -111,7 +111,7 @@ body {
 }
 
 .name {
-  font-size: 50.5px;
+  font-size: 40px;
   font-weight: 700;
   margin-bottom: 0px;
   color: #00238e;
@@ -176,13 +176,13 @@ body {
 /* ===== Main ===== */
 
 .employmentHistory {
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 
 /* ===== Role Item ===== */
 
 .role-item {
-  margin-top: 4px;
+  margin-top: 2px;
 }
 
 /* ===== Role Title ===== */
@@ -232,8 +232,8 @@ body {
   font-size: 16px;
   color: #00238e;
   font-weight: 700;
-  margin-top: 2px;
-  margin-bottom: 2px;
+  margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 /* ===== Responsibilities List ===== */
@@ -245,8 +245,8 @@ body {
 }
 
 .responsibilitesList ul {
-  margin-block-start: 2px;
-  margin-block-end: 2px;
+  margin-block-start: 1px;
+  margin-block-end: 1px;
   padding-inline-start: 20px;
 }
 

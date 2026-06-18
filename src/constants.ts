@@ -1,11 +1,9 @@
 export const summary = `
-  Experienced software developer with a strong focus on web
-  and mobile application development, specializing in SaaS platforms, RESTful APIs,
-  and cloud infrastructure. Proven track record in delivering successful software
-  implementations across web and Android platforms, including large-scale solutions designed for deployment to
-  10,000+ devices. Strong collaborator and team leader,
-  focused on optimizing development processes and enhancing operational efficiency.
-  Seeking meaningful opportunities to contribute to innovative and impactful projects at forward-thinking organizations.
+  Senior Mobile Application Developer and payment systems specialist with 5+ years of experience
+  building Android applications for unattended payment infrastructure, specializing in Kotlin (Jetpack Compose),
+  cross-platform mobile development, and cloud-connected IoT systems. Proven track record delivering
+  large-scale solutions across 10,000+ terminals in self-service payment environments.
+  Strong team leader focused on software architecture, CI/CD automation, and operational efficiency.
 `
 
 export interface PreviousRole {
@@ -39,17 +37,16 @@ const roleList: Role[] = [
     website: "https://www.wevend.com/",
     startDate: "Feb 2026",
     endDate: "Current",
-    skills: "Kotlin(Jetpack Compose), SQLite(Room Database), Java, JavaScript(React Native, Electron, React), TypeScript(React Native, Electron, React)",
+    skills: "Kotlin(Jetpack Compose), SQLite(Room Database), Java, JUnit, JavaScript(React Native, Electron, React), TypeScript(React Native, Electron, React)",
     description: [
-      "Developed and delivered 6+ Android applications for unattended payment systems across car washes, air pumps, and vacuum stations, supporting secure self-service transactions on 10,000+ terminals scheduled for deployment",
-      "Built multiple modular Android SDKs to standardize features and enable inter-app communication via Intents, reducing project setup time by 40% and accelerating feature integration across apps",
-      "Integrated manufacturer SDKs over hardware protocols such as Coin Pulse and Serial Connection, enabling seamless interaction with a wide range of embedded devices",
-      "Created a Windows desktop application (.exe using Electron) to interface with Android devices over USB Serial, reducing manual setup time for field technicians by over 50%",
-      "Implemented native TCP server on Android terminals for real-time communication with kiosks—an industry-first in the unattended sector that improved integration and reduced diagnostic time by 25%",
-      "Architected a scalable infrastructure for remote device control and real-time telemetry, powered by cloud-based IoT services, enhancing visibility and reliability across all terminals",
-      "Automated CI/CD pipelines using GitHub Actions to handle APK builds, code quality checks, and deployments, reducing release turnaround time by 30%",
-      "Led product roadmap planning and infrastructure design decisions, aligning technical architecture with business goals across the unattended payment ecosystem",
-      "Implemented AI-assisted development workflows using Claude Code, accelerating feature delivery and code quality across the team"
+      "Developed and delivered 8+ Android applications for unattended payment systems across multiple self-service verticals, supporting up to 50,000 daily transactions across 10,000+ deployed terminals",
+      "Owned the architecture of a modular Android ecosystem following MVVM principles, using AIDL and Intents for cross-app communication, enabling shared SDKs and feature reuse across 6+ applications — reducing new project setup time by 40% and improving terminal performance",
+      "Developed a PCI-compliant mobile payment SDK to securely handle cardholder data",
+      "Led product roadmap planning and infrastructure design, establishing structured workflows for POC, production development, and technical requirement reviews — and automated CI/CD pipelines via GitHub Actions, reducing release turnaround time by 30%",
+      "Spearheaded AI-assisted development workflows using Claude Code, enforcing data governance protocols for AI tooling compliance and increasing team development speed by 70%",
+      "Integrated hardware peripherals across multiple protocols including TCP for kiosk communication, MDB, Coin Pulse, and Serial Connection, enabling real-time interactions across the terminal ecosystem",
+      "Engineered application-layer logging for unattended terminals where manufacturer diagnostics were unavailable, enabling remote debugging via cloud IoT services and reducing diagnostic time by 25%",
+      "Established unit testing practices with JUnit across Android applications, improving code reliability and reducing regression risk during iterative releases",
     ],
     previousRole: [
       {
@@ -68,8 +65,7 @@ const roleList: Role[] = [
     endDate: "Sep 2024",
     skills: "TypeScript(React, Redux), JavaScript(React, Redux), Java(Spring Boot), Python, MSSQL",
     description: [
-      // "Created an internal portal and digital workflow to enhance operational flexibility and improve turnaround rates for executing promotion campaigns",
-      // "Developed a RESTful API for the portal, reducing maintenance time by 20%",
+      "Built an internal portal with RESTful API and digital workflows to streamline promotion campaign execution, reducing maintenance time by 20%",
     ]
   },
   {
@@ -80,12 +76,11 @@ const roleList: Role[] = [
     endDate: "Feb 2023",
     skills: "TypeScript(React, React Native, Vue, Pinia), JavaScript(Vue, Nuxt, VueX), Flutter(GetX),\nSCSS, Jenkins, Git, SocketIO, WebRTC, Figma",
     description: [
+      "Developed two cross-platform mobile applications for iOS and Android using React Native and Flutter, featuring live chat, push notifications, and QR code scanning",
+      "Deployed release activities for over 5 projects and published 2+ mobile applications to Google Play and App Store",
       "Migrated the development process from Scrum to Agile, resulting in a 20% increase in Sprint completion rate",
       "Conducted code reviews for 5 team members and created detailed documentation, enhancing maintainability and reducing development time by 20%",
-      "Deployed release activities for over 5 projects and published 2+ mobile applications to Google Play and App Store",
-      "Collaborated with product managers, UI/UX designers, and backend developers to implement and improve features, increasing customer satisfaction by 15% and transforming the application into a SaaS platform to attract more customers",
-      "Worked with backend developers on RESTful API designs to improve performance",
-      "Developed a crypto exchange application for iOS and Android with live chat, notifications, QR code scanner features",
+      "Collaborated with product managers, designers, and backend developers on RESTful API designs and feature delivery, increasing customer satisfaction by 15%",
     ],
     previousRole: [
       {
